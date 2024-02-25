@@ -1,13 +1,13 @@
-import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Gitty',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/xolving/Gitty-bot',
 			},
 			sidebar: [
 				{
